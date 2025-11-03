@@ -1,0 +1,102 @@
+<style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f4f6f9;
+    }
+
+    /* Sidebar */
+    .sidemenu {
+      height: 100vh;
+      width: 230px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1e1e2f;
+      padding-top: 20px;
+    }
+
+    .sidemenu h2 {
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    .sidemenu a, .dropdown-btn {
+      display: block;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .sidemenu a:hover, .dropdown-btn:hover {
+      background-color: #34344a;
+    }
+
+    .submenu {
+      display: none;
+      background-color: #2b2b3d;
+    }
+
+    .submenu a {
+      padding-left: 40px;
+      font-size: 15px;
+    }
+
+    /* Content Area */
+    .content {
+      margin-left: 240px;
+      padding: 25px;
+    }
+
+    .dashboard {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #0078d7;
+      color: white;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .chart {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
